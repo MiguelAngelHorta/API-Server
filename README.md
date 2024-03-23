@@ -48,7 +48,25 @@
 
 ![iScreen Shoter - 20240323145504663](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/6340e750-606b-4cbf-b428-7338a9393863)
 
+7. Interact with the backend server through bash through the following commands
 
+   ```bash (go to folder)
+    cd <location of files>
+    ```
+
+   ```bash (add a control)
+   curl -X POST -H "Content-Type: application/json" -d '{"mainID":"5", "mainDescription":"Sample Control",        "domain":"Sample Domain", "scope":"Yes"}' http://localhost:3000/controls
+   ```
+   
+   ```bash (update a control)
+   curl -X PUT -H "Content-Type: application/json" -d '{"mainDescription":"Updated Control",     
+   "domain":"Updated Domain", "scope":"No"}' http://localhost:3000/controls/5
+   ```
+
+   ```bash (delete a control)
+   curl -X DELETE http://localhost:3000/controls/5
+   ```
+      
 ## Testing the APIs with Postman
 ![iScreen Shoter - 20240323121615435](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/6806f9aa-1979-4121-8d4e-b29a6876b91c)
 
