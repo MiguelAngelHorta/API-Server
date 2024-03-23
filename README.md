@@ -45,6 +45,7 @@
 ![iScreen Shoter - Google Chrome - 240323145703](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/2e63de71-1646-45d4-9f68-6ce6bc8bce1d)
 
 6. Interact with the frontend by opening folder in Visual Studio and opening the 'indexAPI.html' file through
+
 ![iScreen Shoter - 20240323145504663](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/6340e750-606b-4cbf-b428-7338a9393863)
 
 
