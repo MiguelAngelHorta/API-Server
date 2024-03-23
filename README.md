@@ -29,51 +29,28 @@
 3. Install dependencies:
 
     ```bash
-    npm install
+    npm install express body-parser cors 
     ```
 
 4. Start the Express server:
 
     ```bash
-    node index.js
+    node appAPI.js
     ```
 
-5. The server will start running at `http://localhost:3000`. You can now access the front-end by opening `index.html` in your browser.
+5. The server will start running at `http://localhost:3000`. The JSON data in the inventory table can be viewed @ 'http://localhost:3000/controls' in the browser.
+
+![iScreen Shoter - 20240323121144041](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/1ff8b694-f6f0-46b2-87da-a7ef987a8949)
+
+![iScreen Shoter - Google Chrome - 240323145703](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/2e63de71-1646-45d4-9f68-6ce6bc8bce1d)
+
+6. Interact with the frontend by opening folder in Visual Studio and opening the 'indexAPI.html' file through
+![iScreen Shoter - 20240323145504663](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/6340e750-606b-4cbf-b428-7338a9393863)
+
 
 ## Testing the APIs with Postman
+![iScreen Shoter - 20240323121615435](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/6806f9aa-1979-4121-8d4e-b29a6876b91c)
 
-### Fetch All Controls
-
-- **Method:** GET
-- **Endpoint:** http://localhost:3000/controls
-- **Description:** Retrieve all controls from the server.
-
-### Add a New Control
-
-- **Method:** POST
-- **Endpoint:** http://localhost:3000/controls
-- **Body:** JSON object with the following properties:
-  - `mainID` (string): Main Control ID
-  - `mainDescription` (string): Main Control Description
-  - `domain` (string): Security Domain
-  - `scope` (string): Scope
-- **Description:** Add a new control to the inventory.
-
-### Update a Control
-
-- **Method:** PUT
-- **Endpoint:** http://localhost:3000/controls/:id (Replace `:id` with the ID of the control you want to update)
-- **Body:** JSON object with the following properties:
-  - `mainDescription` (string): Updated Main Control Description
-  - `domain` (string): Updated Security Domain
-  - `scope` (string): Updated Scope
-- **Description:** Update an existing control in the inventory.
-
-### Delete a Control
-
-- **Method:** DELETE
-- **Endpoint:** http://localhost:3000/controls/:id (Replace `:id` with the ID of the control you want to delete)
-- **Description:** Delete an existing control from the inventory.
 
 ## Summary of JavaScript Functions
 
