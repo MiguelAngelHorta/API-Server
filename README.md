@@ -6,11 +6,11 @@
 ### Prerequisites
 
 - Node.js installed on your machine
- -  https://nodejs.org/en/download
+  -  https://nodejs.org/en/download
 - download express body parser
- - npm install express body-parser cors 
+  - npm install express body-parser cors 
 - Postman installed for testing APIs (optional)
- - https://web.postman.co/home
+  - https://web.postman.co/home
 
 ### Steps to Run the App
 
