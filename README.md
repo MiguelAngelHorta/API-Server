@@ -52,7 +52,7 @@
 
    (go to folder)
    ```bash 
-    cd <location of files>
+    cd <folder location>
     ```
    (add a control)
    ```bash 
