@@ -1,6 +1,11 @@
 # API-Server
  This code sets up a RESTful API using Express in Node.js for managing security controls, including functionalities to add, update, and delete controls, with data stored in memory and presented in a web interface with Bootstrap.
 
+##
+Architecture
+![Local App frontend + backend](https://github.com/MiguelAngelHorta/API-Server/assets/106134627/70f31840-c48f-4d3d-8c8a-93aebe28fcab)
+
+
 ## Setup Instructions
 
 ### Prerequisites
